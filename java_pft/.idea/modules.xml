@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github-sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/github-sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github-sample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/github-sample.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-sample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-sample.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/soap-sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/soap-sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/soap-sample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/soap-sample.test.iml" />
+    </modules>
+  </component>
+</project>

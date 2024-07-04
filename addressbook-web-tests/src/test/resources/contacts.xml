@@ -1,0 +1,32 @@
+<list>
+  <contact>
+    <fname>ivan0</fname>
+    <lname>ivanov0</lname>
+    <address>3930000</address>
+    <mobile>88000</mobile>
+    <email>0@ya.ru</email>
+    <bday>-</bday>
+    <bmonth>-</bmonth>
+    <group>[none]</group>
+  </contact>
+  <contact>
+    <fname>ivan1</fname>
+    <lname>ivanov1</lname>
+    <address>3930001</address>
+    <mobile>88001</mobile>
+    <email>1@ya.ru</email>
+    <bday>-</bday>
+    <bmonth>-</bmonth>
+    <group>[none]</group>
+  </contact>
+  <contact>
+    <fname>ivan2</fname>
+    <lname>ivanov2</lname>
+    <address>3930002</address>
+    <mobile>88002</mobile>
+    <email>2@ya.ru</email>
+    <bday>-</bday>
+    <bmonth>-</bmonth>
+    <group>[none]</group>
+  </contact>
+</list>

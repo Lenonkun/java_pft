@@ -1,0 +1,32 @@
+[
+  {
+    "firstname": "ivan0",
+    "lastname": "ivanov0",
+    "address": "393000",
+    "email": "0@ya.ru",
+    "mobile": "88000",
+    "bday": "10",
+    "bmonth": "February",
+    "byear": "1999"
+  },
+  {
+    "firstname": "ivan1",
+    "lastname": "ivanov1",
+    "address": "393000",
+    "email": "1@ya.ru",
+    "mobile": "88001",
+    "bday": "11",
+    "bmonth": "February",
+    "byear": "1999"
+  },
+  {
+    "firstname": "ivan2",
+    "lastname": "ivanov2",
+    "address": "393000",
+    "email": "2@ya.ru",
+    "mobile": "88002",
+    "bday": "12",
+    "bmonth": "February",
+    "byear": "1999"
+  }
+]

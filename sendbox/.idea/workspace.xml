@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66d15e88-13ad-4c5d-b995-16049929ea2f" name="Changes" comment="Добавлен новый модуль для тестов для Mantis">
+      <change afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/HttpSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-web-tests/test-$[bySecond].log" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-web-tests/test-$[bySecond].log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../addressbook-web-tests">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/sendbox">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../mantis-tests">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/sendbox">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../mantis-tests">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sendbox" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sendbox" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2hn6ixMQYuufI811R5WNpk2hh4H" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/java_pft/mantis-tests/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "two.files.diff.last.used.file": "C:/Users/user/IdeaProjects/java_pft/java_pft/sendbox/src/main/java/Point.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.addressbook.model" />
+      <recent name="ru.stqa.pft.addressbook.appmanager" />
+      <recent name="ru.stqa.pft.addressbook" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\java_pft\mantis-tests\src\test\resources" />
+      <recent name="C:\Users\user\IdeaProjects\java_pft\addressbook-web-tests\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\java_pft\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook\tests" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.addressbook.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.mantis.appmanager" />
+      <recent name="ru.stqa.pft.mantis.tests" />
+      <recent name="ru.stqa.pft.addressbook.generators" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.LoginTests">
+    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../mantis-tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.pft.mantis.tests.LoginTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactCreationTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactCreationTests.testCreationContact" type="TestNG" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactCreationTests" />
+      <option name="METHOD_NAME" value="testCreationContact" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactCreationTests.testCreationContact" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactCreationTests" />
+      <option name="METHOD_NAME" value="testCreationContact" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactModificationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="TestNG" nameIsGenerated="true">
+      <module name="mantis-tests.test" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.mantis-tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.mantis-tests.tests.LoginTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveContactFromGroup.testRemoveContactFromGroup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.RemoveContactFromGroup" />
+      <option name="METHOD_NAME" value="testRemoveContactFromGroup" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.stqa.pft.addressbook.tests.AddContactToGroup and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="ru.stqa.pft.addressbook.tests.AddContactToGroup" />
+        <pattern testClass="ru.stqa.pft.addressbook.tests.RemoveContactFromGroup" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.LoginTests" />
+      <item itemvalue="TestNG.LoginTests" />
+      <item itemvalue="TestNG.ContactCreationTests.testCreationContact" />
+      <item itemvalue="TestNG.RemoveContactFromGroup.testRemoveContactFromGroup" />
+      <item itemvalue="TestNG.ru.stqa.pft.addressbook.tests.AddContactToGroup and 1 more" />
+      <item itemvalue="TestNG.ContactModificationTests" />
+      <item itemvalue="TestNG.ContactCreationTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.LoginTests" />
+        <item itemvalue="TestNG.ru.stqa.pft.addressbook.tests.AddContactToGroup and 1 more" />
+        <item itemvalue="TestNG.ContactModificationTests" />
+        <item itemvalue="TestNG.ContactCreationTests" />
+        <item itemvalue="TestNG.RemoveContactFromGroup.testRemoveContactFromGroup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66d15e88-13ad-4c5d-b995-16049929ea2f" name="Changes" comment="" />
+      <created>1718217625539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718217625539</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Выполнение задания блока 1">
+      <option name="closed" value="true" />
+      <created>1718257128679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718257128679</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Выполнение задания блока 1">
+      <option name="closed" value="true" />
+      <created>1718257199559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718257199559</updated>
+    </task>
+    <task id="LOCAL-00003" summary="выполнение первого задания">
+      <option name="closed" value="true" />
+      <created>1718303786485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718303786485</updated>
+    </task>
+    <task id="LOCAL-00004" summary="выполнение первого задания">
+      <option name="closed" value="true" />
+      <created>1718304899123</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718304899123</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Выполнено третье задание">
+      <option name="closed" value="true" />
+      <created>1718308897409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718308897409</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавление фикстуры по третьему заданию">
+      <option name="closed" value="true" />
+      <created>1718362978125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718362978125</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавление нового класса удаления групп">
+      <option name="closed" value="true" />
+      <created>1718381024118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718381024118</updated>
+    </task>
+    <task id="LOCAL-00008" summary="(Уснул во время урока, залунатил, и написал говнокод)&#10;Правки по коду и создания общ базового класса для классов-помошников">
+      <option name="closed" value="true" />
+      <created>1718469257469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718469257469</updated>
+    </task>
+    <task id="LOCAL-00009" summary="правка кода">
+      <option name="closed" value="true" />
+      <created>1718477369989</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718477369989</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Задание 3-5&#10;Содание контакта">
+      <option name="closed" value="true" />
+      <created>1718530636313</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718530636313</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Выполнено задание 6&#10;Модификация удаление">
+      <option name="closed" value="true" />
+      <created>1718539133361</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718539133361</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Мультибраузерность">
+      <option name="closed" value="true" />
+      <created>1718551393692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718551393692</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Мультибраузерность2">
+      <option name="closed" value="true" />
+      <created>1718551807327</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718551807327</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Реализация пропуска при повторяющихся значениях">
+      <option name="closed" value="true" />
+      <created>1718553094439</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718553094439</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Исключения для выбора группы при создании редактирвоании контакта">
+      <option name="closed" value="true" />
+      <created>1718567079241</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718567079241</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Проверка нахождения на странице после операции">
+      <option name="closed" value="true" />
+      <created>1718568945793</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718568945793</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Задание 7-9&#10;Добавление проверки при удалении и модификации">
+      <option name="closed" value="true" />
+      <created>1718609151949</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718609151949</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Процесс реализации метода getContactList для получения имени и фамилии">
+      <option name="closed" value="true" />
+      <created>1718624630693</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718624630693</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Добавление проверки на число элементов до и после теста">
+      <option name="closed" value="true" />
+      <created>1718632677023</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718632677023</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Поиск максимального элемента в коллекции">
+      <option name="closed" value="true" />
+      <created>1718660882716</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1718660882716</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Сортировка">
+      <option name="closed" value="true" />
+      <created>1718697351025</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1718697351025</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Правки по getContactList, отладка кода&#10;Добавление лямбда выражений в методы модификации и создания групп и контактов&#10;Задание №10">
+      <option name="closed" value="true" />
+      <created>1718715601507</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718715601507</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Кодревью, добавление сордировки в создание контакта&#10;Задание №10">
+      <option name="closed" value="true" />
+      <created>1718719773471</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718719773471</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Кодревью, добавление сордировки в создание контакта&#10;Задание №10">
+      <option name="closed" value="true" />
+      <created>1718743486334</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1718743486334</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Кодревью и Изменение базового тестового класса (экземпляр класса App... теперь статический)">
+      <option name="closed" value="true" />
+      <created>1718809560118</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1718809560118</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Лекция 5.2. Улучшение кода, добавление BeforeMethod, реструктуризация методов модификации">
+      <option name="closed" value="true" />
+      <created>1718829520402</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1718829520402</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Лекция 5.3. Переименование методов, улучшение читабельности">
+      <option name="closed" value="true" />
+      <created>1718885812444</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718885812444</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Лекция 5.4. Добавление Fluent-интерфейсов для всех тестов.">
+      <option name="closed" value="true" />
+      <created>1718906321257</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1718906321257</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Лекция 5.4. Модифицирование метода создания группы, вместо списков множества.&#10;Начало модификации метода удаления группы">
+      <option name="closed" value="true" />
+      <created>1718915799878</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1718915799878</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Лекция 5.4. Модифицирование все методов. Списки на множества.&#10;Изменение селекторов удаления и модификации контактов.">
+      <option name="closed" value="true" />
+      <created>1718966038021</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1718966038021</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Лекции 5.6-5.10&#10;Реализован тест для проверки телефонов, адреса и email-ов с использованием метода обратных проверок.&#10;ВЫполнена оптимизация и кодревью тестов">
+      <option name="closed" value="true" />
+      <created>1719091943948</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1719091943948</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Лекции 5.6-5.10&#10;Выполнение задания Задание №13 &#10;Реализован тест для проверки информации на форме контакта с помощью метода обратных проверок.&#10;ВЫполнена оптимизация и кодревью тестов&#10;Добавлена обработка исключения в тест создания контакта, на случай, если указанной группы нет в списке.">
+      <option name="closed" value="true" />
+      <created>1719145567160</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719145567160</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Комментирование пока что лишних строк">
+      <option name="closed" value="true" />
+      <created>1719146050041</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1719146050041</updated>
+    </task>
+    <task id="LOCAL-00034" summary="6.1-6.2 Реализовано создание генераторов для групп и контактов&#10;Реализована загрузка изображений для создания групп">
+      <option name="closed" value="true" />
+      <created>1719175414349</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1719175414349</updated>
+    </task>
+    <task id="LOCAL-00035" summary="6.3-6.4 Реализован метод validGroups">
+      <option name="closed" value="true" />
+      <created>1719218550277</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1719218550278</updated>
+    </task>
+    <task id="LOCAL-00036" summary="6.3-6.4 Реализован формат xml для создания групп">
+      <option name="closed" value="true" />
+      <created>1719249299806</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1719249299806</updated>
+    </task>
+    <task id="LOCAL-00037" summary="6.3-6.4 Реализован формат xml и json для создания групп">
+      <option name="closed" value="true" />
+      <created>1719260067628</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1719260067628</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Реализация try responce">
+      <option name="closed" value="true" />
+      <created>1719260524950</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1719260524950</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Реализована  Загрузка тестовых данных из файла в формете Json, xml, csv для теста создания контактов&#10;Переопределены методы класса File из за которого тест падал на доступе к File">
+      <option name="closed" value="true" />
+      <created>1719342572419</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1719342572419</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Реализованы конфигурационные файлы для разных наборов тестов">
+      <option name="closed" value="true" />
+      <created>1719347126257</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1719347126257</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Реализованы конфигурационные файлы для разных наборов тестов">
+      <option name="closed" value="true" />
+      <created>1719404227060</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1719404227060</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Создание пробного класса для тестирования соединения БД">
+      <option name="closed" value="true" />
+      <created>1719416308054</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1719416308054</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Создание пробного класса для тестирования соединения БД ORM">
+      <option name="closed" value="true" />
+      <created>1719422382421</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1719422382421</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Изменение пробного класса для тестирования соединения БД ORM под ContactData">
+      <option name="closed" value="true" />
+      <created>1719438280198</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1719438280198</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Реализована сверка записей по БД для тестов по группам">
+      <option name="closed" value="true" />
+      <created>1719481117290</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1719481117290</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Реализована сверка записей по БД для тестов по контактам">
+      <option name="closed" value="true" />
+      <created>1719483229809</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1719483229809</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Кодревью">
+      <option name="closed" value="true" />
+      <created>1719499104118</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1719499104118</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Реализованы тесты для добавления контакта в группу и удаления контакта из группы">
+      <option name="closed" value="true" />
+      <created>1719599456504</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719599456504</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Добавлен новый модуль для тестов для Mantis">
+      <option name="closed" value="true" />
+      <created>1719651354416</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1719651354416</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Кодревью, добавление сордировки в создание контакта&#10;Задание №10" />
+    <MESSAGE value="Кодревью и Изменение базового тестового класса (экземпляр класса App... теперь статический)" />
+    <MESSAGE value="Лекция 5.2. Улучшение кода, добавление BeforeMethod, реструктуризация методов модификации" />
+    <MESSAGE value="Лекция 5.3. Переименование методов, улучшение читабельности" />
+    <MESSAGE value="Лекция 5.4. Добавление Fluent-интерфейсов для всех тестов." />
+    <MESSAGE value="Лекция 5.4. Модифицирование метода создания группы, вместо списков множества.&#10;Начало модификации метода удаления группы" />
+    <MESSAGE value="Лекция 5.4. Модифицирование все методов. Списки на множества.&#10;Изменение селекторов удаления и модификации контактов." />
+    <MESSAGE value="Лекции 5.6-5.10&#10;Реализован тест для проверки телефонов, адреса и email-ов с использованием метода обратных проверок.&#10;ВЫполнена оптимизация и кодревью тестов" />
+    <MESSAGE value="Лекции 5.6-5.10&#10;Выполнение задания Задание №13 &#10;Реализован тест для проверки информации на форме контакта с помощью метода обратных проверок.&#10;ВЫполнена оптимизация и кодревью тестов&#10;Добавлена обработка исключения в тест создания контакта, на случай, если указанной группы нет в списке." />
+    <MESSAGE value="Комментирование пока что лишних строк" />
+    <MESSAGE value="6.1-6.2 Реализовано создание генераторов для групп и контактов&#10;Реализована загрузка изображений для создания групп" />
+    <MESSAGE value="6.3-6.4 Реализован метод validGroups" />
+    <MESSAGE value="6.3-6.4 Реализован формат xml для создания групп" />
+    <MESSAGE value="6.3-6.4 Реализован формат xml и json для создания групп" />
+    <MESSAGE value="Реализация try responce" />
+    <MESSAGE value="Реализована  Загрузка тестовых данных из файла в формете Json, xml, csv для теста создания контактов&#10;Переопределены методы класса File из за которого тест падал на доступе к File" />
+    <MESSAGE value="Реализованы конфигурационные файлы для разных наборов тестов" />
+    <MESSAGE value="Создание пробного класса для тестирования соединения БД" />
+    <MESSAGE value="Создание пробного класса для тестирования соединения БД ORM" />
+    <MESSAGE value="Изменение пробного класса для тестирования соединения БД ORM под ContactData" />
+    <MESSAGE value="Реализована сверка записей по БД для тестов по группам" />
+    <MESSAGE value="Реализована сверка записей по БД для тестов по контактам" />
+    <MESSAGE value="Кодревью" />
+    <MESSAGE value="Реализованы тесты для добавления контакта в группу и удаления контакта из группы" />
+    <MESSAGE value="Добавлен новый модуль для тестов для Mantis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен новый модуль для тестов для Mantis" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/CheckContacts.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
