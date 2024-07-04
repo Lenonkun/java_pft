@@ -53,6 +53,13 @@ dependencies {
     testImplementation 'javax.xml.bind:jaxb-api:2.3.1'
     testImplementation 'org.glassfish.jaxb:jaxb-runtime:2.3.3'
 
+    //for cucumber
+    implementation 'io.cucumber:cucumber-java:7.15.0'
+    implementation 'io.cucumber:cucumber-testng:7.15.0'
+
+
+
+
     //Allure
     agent "org.aspectj:aspectjweaver:1.9.7"
     implementation "ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0.RC4"
