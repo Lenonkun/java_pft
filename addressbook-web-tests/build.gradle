@@ -46,8 +46,12 @@ dependencies {
     // https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core
     implementation group: 'org.hibernate.orm', name: 'hibernate-core', version: '6.5.2.Final'
     implementation group: 'javax.activation', name: 'javax.activation-api', version: '1.2.0'
-
-
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    implementation 'org.apache.commons:commons-lang3:3.14.0'
+    testImplementation 'com.sun.xml.bind:jaxb-core:2.3.0.1'
+    testImplementation 'com.sun.xml.bind:jaxb-impl:2.3.3'
+    testImplementation 'javax.xml.bind:jaxb-api:2.3.1'
+    testImplementation 'org.glassfish.jaxb:jaxb-runtime:2.3.3'
 
     //Allure
     agent "org.aspectj:aspectjweaver:1.9.7"
@@ -72,7 +76,9 @@ task testGroups(type: Test) {
 }
 
 testGroups.doFirst {
-    jvmArgs "-javaagent:${configurations.agent.singleFile}"
+    jvmArgs "-javaagent:${configurations.agent.singleFile}",
+    '--add-opens', 'java.base/java.lang=ALL-UNNAMED',
+    '--add-opens', 'java.base/java.lang.reflect=ALL-UNNAMED'
 }
 
 task testContacts(type: Test) {
@@ -90,5 +96,14 @@ task testContacts(type: Test) {
     }
 }
 testContacts.doFirst {
-    jvmArgs "-javaagent:${configurations.agent.singleFile}"
+    jvmArgs "-javaagent:${configurations.agent.singleFile}",
+    '--add-opens', 'java.base/java.lang=ALL-UNNAMED',
+    '--add-opens', 'java.base/java.lang.reflect=ALL-UNNAMED'
+}
+test {
+    useTestNG()
+    jvmArgs += [
+            '--add-opens', 'java.base/java.lang=ALL-UNNAMED',
+            '--add-opens', 'java.base/java.lang.reflect=ALL-UNNAMED'
+    ]
 }
