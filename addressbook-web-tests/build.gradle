@@ -12,7 +12,7 @@ configurations {
 
 dependencies {
     // https://mvnrepository.com/artifact/org.testng/testng
-    testImplementation group: 'org.testng', name: 'testng', version: '7.10.2'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.7.0'
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.13'
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
@@ -46,16 +46,15 @@ dependencies {
     // https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core
     implementation group: 'org.hibernate.orm', name: 'hibernate-core', version: '6.5.2.Final'
     implementation group: 'javax.activation', name: 'javax.activation-api', version: '1.2.0'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.3.1'
+
+
 
     //Allure
     agent "org.aspectj:aspectjweaver:1.9.7"
     implementation 'org.aspectj:aspectjrt:1.9.7'
     implementation "ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0.RC4"
     implementation 'io.qameta.allure:allure-testng:2.27.0'
-
-    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.3.1'
-
 }
 
 
