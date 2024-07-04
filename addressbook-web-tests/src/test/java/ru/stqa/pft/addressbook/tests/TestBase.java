@@ -1,13 +1,11 @@
 package ru.stqa.pft.addressbook.tests;
 
+import org.aspectj.lang.annotation.AfterReturning;
 import org.openqa.selenium.remote.Browser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.*;
 import ru.stqa.pft.addressbook.appmanager.ApplicationManager;
 import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
@@ -35,8 +33,8 @@ public class TestBase {
 
     }
 
-    @AfterSuite
-    public void tearDown() throws Exception {
+    @AfterTest
+    public void tearDown() {
         app.stop();
     }
 
@@ -46,7 +44,7 @@ public class TestBase {
 
     }
 
-    @BeforeMethod(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void logTestStop(Method m) {
         logger.info("End test " + m.getName());
     }

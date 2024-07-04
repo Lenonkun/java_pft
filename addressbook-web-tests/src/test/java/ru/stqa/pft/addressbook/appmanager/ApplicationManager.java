@@ -71,8 +71,8 @@ public class ApplicationManager {
 
     public void stop() {
         wd.findElement(By.linkText("Logout")).click();
-        wd.quit();
         wd.close();
+        wd.quit();
     }
 
     public GroupHelper group() {
