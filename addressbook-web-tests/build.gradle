@@ -49,8 +49,9 @@ dependencies {
     //Allure
     implementation "org.aspectj:aspectjweaver:1.8.0"
     implementation 'org.aspectj:aspectjrt:1.9.7'
-    implementation "ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0.RC4"
+    //implementation "ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0.RC4"
     implementation 'io.qameta.allure:allure-testng:2.27.0'
+
 
 }
 
