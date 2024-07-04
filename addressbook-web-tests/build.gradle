@@ -4,6 +4,9 @@ apply plugin: 'java'
 repositories {
     mavenCentral()
 }
+configurations {
+    agent
+}
 
 dependencies {
     // https://mvnrepository.com/artifact/org.testng/testng
@@ -41,11 +44,13 @@ dependencies {
     // https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core
     implementation group: 'org.hibernate.orm', name: 'hibernate-core', version: '6.5.2.Final'
 
-
-
-
-
+    //Allure
+    agent "org.aspectj:aspectjweaver:1.8.0"
+    implementation "ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0.RC4"
 }
+
+
+
 task testGroups(type: Test) {
     useTestNG {
         suites 'src/test/resources/testng-groups.xml'
@@ -73,4 +78,10 @@ task testContacts(type: Test) {
     if (project.hasProperty('verifiUI')) {
         systemProperty 'verifiUI', "${verifiUI}"
     }
+}
+testGroups.doFirst {
+    jvmArgs "-javaagent:${configurations.agent.singleFile}"
+}
+testContacts.doFirst {
+    jvmArgs "-javaagent:${configurations.agent.singleFile}"
 }
