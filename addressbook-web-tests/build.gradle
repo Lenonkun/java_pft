@@ -1,5 +1,7 @@
-apply plugin: 'java'
-
+plugins {
+    id 'java'
+    id("io.qameta.allure") version "2.11.2"
+}
 
 repositories {
     mavenCentral()
@@ -47,6 +49,8 @@ dependencies {
     //Allure
     agent "org.aspectj:aspectjweaver:1.8.0"
     implementation "ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0.RC4"
+    implementation 'io.qameta.allure:allure-testng:2.27.0'
+
 }
 
 

@@ -1,13 +1,13 @@
 package ru.stqa.pft.addressbook.appmanager;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.bouncycastle.oer.its.etsi102941.Url;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -53,7 +53,7 @@ public class ApplicationManager {
                 WebDriverManager.iedriver().setup();
                 wd = new InternetExplorerDriver();
             }
-        }else {
+        } else {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setBrowserName(browser);
             wd = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
@@ -88,6 +88,10 @@ public class ApplicationManager {
 
     public DbHelper db() {
         return dbHelper;
+    }
+
+    public byte[] takeScreenshot() {
+        return ((TakesScreenshot) wd).getScreenshotAs(OutputType.BYTES);
     }
 
 }
